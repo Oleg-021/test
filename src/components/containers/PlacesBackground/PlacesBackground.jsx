@@ -7,7 +7,6 @@ import {filterAchievements} from "../../../utils/filterAchievements";
 
 import './places-background.css'
 
-
 const items = [
     {
         id: '01',
