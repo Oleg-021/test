@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import PlacesBackground from "./components/containers/PlacesBackground";
+import PlacesBackground from './components/containers/PlacesBackground'
 
 const App = () => {
     return (

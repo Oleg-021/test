@@ -1,3 +1,3 @@
-import PlacesBackground from "./PlacesBackground";
+import PlacesBackground from './PlacesBackground'
 
-export default PlacesBackground;
+export default PlacesBackground

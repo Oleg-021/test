@@ -1,10 +1,10 @@
 import React, {memo, useEffect, useMemo, useState} from 'react'
 
-import AchievementList from "../AchievementList";
-import FilterPanel from "../FilterPanel";
-import Title from "../../ui/Title";
-import {filterAchievements} from "../../../utils/filterAchievements";
-import {FILTER} from "../../../constants/FILTER";
+import AchievementList from '../AchievementList'
+import FilterPanel from '../FilterPanel'
+import Title from '../../ui/Title'
+import {filterAchievements} from '../../../utils/filterAchievements'
+import {FILTER} from '../../../constants/FILTER'
 
 import './places-background.css'
 
@@ -89,4 +89,4 @@ function PlacesBackground() {
     )
 }
 
-export default memo(PlacesBackground);
+export default memo(PlacesBackground)
