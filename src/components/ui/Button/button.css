@@ -1,4 +1,4 @@
-.button {
+.filter-button {
     flex: 1;
     padding: 10px;
     margin: 10px;
@@ -9,7 +9,7 @@
     border-radius: 5px;
 }
 
-.button:hover {
+.filter-button:hover {
     cursor: pointer;
     background-color: #de960f;
 }

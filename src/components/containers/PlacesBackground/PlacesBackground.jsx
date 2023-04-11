@@ -1,10 +1,12 @@
-import React, {memo, useEffect, useMemo, useState} from "react"
+import React, {memo, useEffect, useMemo, useState} from 'react'
 
-
-import './places-background.css'
 import AchievementList from "../AchievementList";
 import FilterPanel from "../FilterPanel";
+import Title from "../../ui/Title";
 import {filterAchievements} from "../../../utils/filterAchievements";
+
+import './places-background.css'
+
 
 const items = [
     {
@@ -80,10 +82,8 @@ function PlacesBackground() {
 
     return (
         <div className='container'>
-            <h1 className='main-title'>Достижения людей</h1>
-
+            <Title>Достижения людей</Title>
             <FilterPanel setFilter={setFilter} />
-
             <AchievementList achievements={filteredAchievements} />
         </div>
     )

@@ -1,10 +1,10 @@
-import React, {memo} from "react"
+import React, {memo} from 'react'
 
 import './button.css'
 
 const Button = ({title, onClick}) => {
     return (
-        <div className='button' onClick={onClick}>
+        <div className='filter-button' onClick={onClick}>
             {title}
         </div>
     )
