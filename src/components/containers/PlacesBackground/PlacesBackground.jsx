@@ -4,6 +4,7 @@ import AchievementList from "../AchievementList";
 import FilterPanel from "../FilterPanel";
 import Title from "../../ui/Title";
 import {filterAchievements} from "../../../utils/filterAchievements";
+import {FILTER} from "../../../constants/FILTER";
 
 import './places-background.css'
 
@@ -67,7 +68,7 @@ const bgColors = [
 ]
 
 function PlacesBackground() {
-    const [filter, setFilter] = useState('none');
+    const [filter, setFilter] = useState(FILTER.NONE);
     const [achievements, setAchievements] = useState([]);
 
     useEffect(() => {
